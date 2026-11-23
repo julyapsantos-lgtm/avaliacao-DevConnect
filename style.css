@@ -1,0 +1,11 @@
+body {
+    color: #F4F6F9;
+}
+
+header {
+    color: #102A43;
+    height: 80px;
+    align-content: center;
+    max-width: 1100px;
+    margin: auto;
+}
