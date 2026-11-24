@@ -1,8 +1,11 @@
 body {
-    color: #F4F6F9;
+    display: flex;
+    color:#F4F6F9;
+
 }
 
-header {
+#cabeçalho{
+    display: flex;
     color: #102A43;
     height: 80px;
     align-content: center;
@@ -11,13 +14,46 @@ header {
 }
 
 h1 {
+    display: flex;
     background-color: white;
     font-size:  26px;
-    align-items: ;
-
+    text-align: right;
 }
 
 .menu-de-navegação {
+    display: flex;
     background-color: white;
     font-size: 14px;
+    gap: 24px;
+    text-decoration: none;
 }
+
+.seçao-principal {
+    display: flex;
+    color: #163A5F;
+    height: 350px;
+    align-items: center;
+    max-width: 1100px ;
+    text-align: left;
+}
+
+h2 {
+    background-color: #F5A623;
+    font-size: 14px;
+}
+
+h3 {
+    background-color: white;
+    font-size: 40px;
+    max-width: 750px;
+}
+
+p {
+    background-color: #E2E8F0;
+    font-size: 16px;
+    max-width: 700px;
+    gap: 15px;
+}
+
+
+
